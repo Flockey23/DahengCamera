@@ -95,7 +95,7 @@ def main():
             print("Frame ID: %d   Height: %d   Width: %d   framerate_set:%dfps   framerate_get:%dfps"
                   % (raw_image.get_frame_id(), raw_image.get_height(), raw_image.get_width(), framerate_set,
                      framerate_get))  # Распечатать высоту, ширину, идентификатор кадра захваченного изображения, частоту кадров, установленную пользователем, и текущую частоту кадров
-
+ 
         # Прекратить собирать
         print("")
         print("**********************************************************")
